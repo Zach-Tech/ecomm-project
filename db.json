@@ -1,0 +1,52 @@
+{
+  "seller": [
+    {
+      "id": "8d21",
+      "name": "Zacheus Eshitemi",
+      "email": "zacheusfavour@gmail.com",
+      "password": "Zach0nly"
+    },
+    {
+      "id": "3f9a",
+      "name": "Pius Mutuma",
+      "email": "piusmutuma@gmail.com",
+      "password": "pius@123"
+    },
+    {
+      "id": "2acf",
+      "name": "Martin Karani",
+      "password": "Marto@karash",
+      "email": "martinkarani@gmail.com"
+    },
+    {
+      "id": "e17d",
+      "name": "Evan Cassidy",
+      "password": "evan@1234",
+      "email": "evancassidy@gmail.com"
+    },
+    {
+      "id": "8bd5",
+      "name": "Bruce Wayne",
+      "password": "brcwyn@0123",
+      "email": "brucewayne@gmail.com"
+    },
+    {
+      "id": "54c6",
+      "name": "Pius Mutuma",
+      "password": "pius@123",
+      "email": "piusmutuma@gmail.com"
+    },
+    {
+      "id": "12ef",
+      "name": "Rosalyn ",
+      "password": "Perkins",
+      "email": "rosalynperkins@gmail.com"
+    },
+    {
+      "id": "1a71",
+      "name": "Sasha ",
+      "password": "Sanan@123",
+      "email": "sasha.sanan@gmail.com"
+    }
+  ]
+}
