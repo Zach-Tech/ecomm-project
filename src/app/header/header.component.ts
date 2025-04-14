@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent implements OnInit {
-  menuType: String = 'default';
+  menuType: string = 'default';
+  sellerName: string = '';
   constructor(private route: Router) {}
 
   ngOnInit(): void {
@@ -16,12 +17,18 @@ export class HeaderComponent implements OnInit {
       if (val.url) {
         console.warn(val.url);
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
-          console.warn('this can only be accessed by the seller');
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
           this.menuType = 'seller';
         } else {
           this.menuType = 'default';
         }
       }
     });
+  }
+  logout() {
+    localStorage.removeItem('seller');
+    this.route.navigate(['/']);
   }
 }
