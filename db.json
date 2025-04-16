@@ -48,5 +48,34 @@
       "password": "Sanan@123",
       "email": "sasha.sanan@gmail.com"
     }
+  ],
+  "products": [
+    {
+      "id": "d04b",
+      "name": "samsung m40",
+      "price": "500",
+      "category": "mobile",
+      "color": "black",
+      "description": "This is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "9bb4",
+      "name": "I phone 14",
+      "price": "150",
+      "category": "mobile",
+      "color": "red",
+      "description": "This is an Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "f75f",
+      "name": "Redmi Note 12C",
+      "price": "80",
+      "category": "mobile",
+      "color": "blue",
+      "description": "This is a Xiaomi Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    }
   ]
 }
