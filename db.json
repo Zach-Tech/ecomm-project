@@ -60,22 +60,22 @@
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
     },
     {
-      "id": "9bb4",
-      "name": "I phone 14",
-      "price": "150",
-      "category": "mobile",
-      "color": "red",
-      "description": "This is an Apple Product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
-    },
-    {
-      "id": "f75f",
+      "id": "7575",
       "name": "Redmi Note 12C",
       "price": "80",
       "category": "mobile",
       "color": "blue",
       "description": "This is a Xiaomi Product",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "e2cc",
+      "name": "Dell Laptop",
+      "price": "700",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "This is a Dell Product",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
     }
   ]
 }
