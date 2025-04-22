@@ -54,4 +54,8 @@ export class HeaderComponent implements OnInit {
     console.warn(val);
     this.route.navigate([`search/${val}`]);
   }
+
+  redirectToDetails(id: number) {
+    this.route.navigate(['/details/' + id]);
+  }
 }
