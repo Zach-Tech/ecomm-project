@@ -1,13 +1,13 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 import { login, signUp } from '../data-type';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { response } from 'express';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UsersService {
+  invalidUserAuth = new EventEmitter<boolean>(false);
   constructor(private http: HttpClient, private router: Router) {}
   userSignUp(user: signUp) {
     this.http
@@ -28,9 +28,12 @@ export class UsersService {
         { observe: 'response' }
       )
       .subscribe((result) => {
-        if (result && result.body) {
+        if (result && result.body?.length) {
           localStorage.setItem('user', JSON.stringify(result.body[0]));
           this.router.navigate(['/']);
+          this.invalidUserAuth.emit(false);
+        } else {
+          this.invalidUserAuth.emit(true);
         }
       });
   }
