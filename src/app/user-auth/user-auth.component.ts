@@ -12,7 +12,9 @@ import { UsersService } from '../services/users.service';
 export class UserAuthComponent implements OnInit {
   constructor(private user: UsersService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.user.userAuthReload();
+  }
 
   signUp(data: signUp) {
     this.user.userSignUp(data);

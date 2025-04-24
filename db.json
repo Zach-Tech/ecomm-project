@@ -126,6 +126,18 @@
       "email": "peter.penuri@gmail.com",
       "password": "peter123",
       "id": 2
+    },
+    {
+      "name": "daphine",
+      "email": "daphine@gmail.com",
+      "password": "daph123",
+      "id": 3
+    },
+    {
+      "name": "joseph",
+      "email": "josephwise@gmail.com",
+      "password": "jose123",
+      "id": 4
     }
   ]
 }
