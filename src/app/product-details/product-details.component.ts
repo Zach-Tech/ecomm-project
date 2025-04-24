@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
+import { warn } from 'console';
 
 @Component({
   selector: 'app-product-details',
@@ -32,6 +33,15 @@ export class ProductDetailsComponent implements OnInit {
       this.productQuantity += 1;
     } else if (this.productQuantity > 1 && val === 'min') {
       this.productQuantity -= 1;
+    }
+  }
+
+  addToCart() {
+    if (this.productData) {
+      this.productData.quantity = this.productQuantity;
+      if (!localStorage.getItem('user')) {
+        this.product.localAddToCart(this.productData);
+      }
     }
   }
 }
