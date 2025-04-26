@@ -272,6 +272,42 @@
       "productId": "7bd2",
       "userId": 4,
       "id": 11
+    },
+    {
+      "name": "Redmi Note 12C",
+      "price": "80",
+      "category": "mobile",
+      "color": "blue",
+      "description": "This is a Xiaomi Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": "7575",
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "name": "Samsung M-40",
+      "price": "499",
+      "category": "mobile",
+      "color": "black",
+      "description": "This is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": "d04b",
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "name": "Redmi Note 12C",
+      "price": "80",
+      "category": "mobile",
+      "color": "blue",
+      "description": "This is a Xiaomi Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": "7575",
+      "userId": 4,
+      "id": 14
     }
   ]
 }
