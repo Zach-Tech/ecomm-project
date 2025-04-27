@@ -189,5 +189,28 @@
       "userId": 4,
       "id": 13
     }
+  ],
+  "orders": [
+    {
+      "email": "zacheusfavour@gmail.com",
+      "address": "Nairobi, Kasarani , Mirema Drive, Apartment",
+      "contact": "0708119989",
+      "totalPrice": 599,
+      "userId": {
+        "name": "joseph",
+        "email": "josephwise@gmail.com",
+        "password": "jose123",
+        "id": 4
+      },
+      "id": 1
+    },
+    {
+      "email": "wangilawise@gmail.com",
+      "address": "K Mall, Kiambu Road, Kiambu County., Crest Apartment, House Number 305.",
+      "contact": "0708119989",
+      "totalPrice": 599,
+      "userId": 4,
+      "id": 2
+    }
   ]
 }
