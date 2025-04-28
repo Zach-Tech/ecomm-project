@@ -176,34 +176,9 @@
       "productId": "7575",
       "userId": 2,
       "id": 9
-    },
-    {
-      "name": "Samsung M-40",
-      "price": "499",
-      "category": "mobile",
-      "color": "black",
-      "description": "This is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "quantity": 1,
-      "productId": "d04b",
-      "userId": 4,
-      "id": 13
     }
   ],
   "orders": [
-    {
-      "email": "zacheusfavour@gmail.com",
-      "address": "Nairobi, Kasarani , Mirema Drive, Apartment",
-      "contact": "0708119989",
-      "totalPrice": 599,
-      "userId": {
-        "name": "joseph",
-        "email": "josephwise@gmail.com",
-        "password": "jose123",
-        "id": 4
-      },
-      "id": 1
-    },
     {
       "email": "wangilawise@gmail.com",
       "address": "K Mall, Kiambu Road, Kiambu County., Crest Apartment, House Number 305.",
@@ -211,6 +186,22 @@
       "totalPrice": 599,
       "userId": 4,
       "id": 2
+    },
+    {
+      "email": "wangilawise@gmail.com",
+      "address": "K Mall, Kiambu Road, Kiambu County., Crest Apartment, House Number 305.",
+      "contact": "0708119989",
+      "totalPrice": 599,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "email": "wangilawise@gmail.com",
+      "address": "K Mall, Kiambu Road, Kiambu County., Crest Apartment, House Number 305.",
+      "contact": "0708119989",
+      "totalPrice": 320,
+      "userId": 4,
+      "id": 4
     }
   ]
 }

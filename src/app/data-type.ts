@@ -48,4 +48,5 @@ export interface order {
   contact: string;
   totalPrice: number;
   userId: string;
+  id: number | undefined;
 }
