@@ -178,14 +178,5 @@
       "id": 9
     }
   ],
-  "orders": [
-    {
-      "email": "zacheusfavour@gmail.com",
-      "address": "Nairobi, Kasarani , Mirema Drive, Apartment",
-      "contact": "0708119989",
-      "totalPrice": 599,
-      "userId": 4,
-      "id": 1
-    }
-  ]
+  "orders": []
 }
